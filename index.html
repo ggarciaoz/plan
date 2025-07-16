@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malla Curricular - Ingeniería de Sistemas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Malla Curricular - Ingeniería de Sistemas</h1>
+    <div class="curriculum-grid">
+        <!-- 1er Semestre -->
+        <div class="semester">
+            <h2>1er Semestre</h2>
+            <div class="course" data-id="01011403" data-prerequisites="">Algoritmos y Programación (4 créditos)</div>
+            <div class="course" data-id="01011401" data-prerequisites="">Cálculo Diferencial (4 créditos)</div>
+            <div class="course" data-id="01011406" data-prerequisites="">General English I (2 créditos)</div>
+            <div class="course" data-id="01011404" data-prerequisites="">Introducción a la Ingeniería de Sistemas (2 créditos)</div>
+            <div class="course" data-id="01011402" data-prerequisites="">Matemáticas Discretas (4 créditos)</div>
+            <div class="course" data-id="01011405" data-prerequisites="">Procesos Lectores y Escriturales (2 créditos)</div>
+        </div>
+        <!-- 2do Semestre -->
+        <div class="semester">
+            <h2>2do Semestre</h2>
+            <div class="course" data-id="02011408" data-prerequisites="">Álgebra Lineal (3 créditos)</div>
+            <div class="course" data-id="02011407" data-prerequisites="01011401">Cálculo Integral (4 créditos)</div>
+            <div class="course" data-id="02011409" data-prerequisites="01011403">Estructura de Datos I (4 créditos)</div>
+            <div class="course" data-id="02011411" data-prerequisites="01011406">General English II (2 créditos)</div>
+            <div class="course" data-id="02011410" data-prerequisites="01011403">Programación Orientada a Objetos (4 créditos)</div>
+        </div>
+        <!-- 3er Semestre -->
+        <div class="semester">
+            <h2>3er Semestre</h2>
+            <div class="course" data-id="03011412" data-prerequisites="02011408,02011407">Cálculo Vectorial (4 créditos)</div>
+            <div class="course" data-id="03011415" data-prerequisites="02011409">Estructura de Datos II (4 créditos)</div>
+            <div class="course" data-id="03011416" data-prerequisites="01011405">Expresión Oral y Argumentación (2 créditos)</div>
+            <div class="course" data-id="03011417" data-prerequisites="02011411">General English III (2 créditos)</div>
+            <div class="course" data-id="03011414" data-prerequisites="">Pensamiento de Sistemas (2 créditos)</div>
+            <div class="course" data-id="03011413" data-prerequisites="02011407">Probabilidad y Estadística (3 créditos)</div>
+        </div>
+        <!-- 4to Semestre -->
+        <div class="semester">
+            <h2>4to Semestre</h2>
+            <div class="course" data-id="04011420" data-prerequisites="03011415">Bases de Datos (4 créditos)</div>
+            <div class="course" data-id="04011418" data-prerequisites="02011407">Ecuaciones Diferenciales (3 créditos)</div>
+            <div class="course" data-id="04011419" data-prerequisites="03011413">Estadística Inferencial (3 créditos)</div>
+            <div class="course" data-id="04011422" data-prerequisites="">Formación Humanística y Ciudadana (2 créditos)</div>
+            <div class="course" data-id="04011423" data-prerequisites="03011417">General English IV (2 créditos)</div>
+            <div class="course" data-id="04011421" data-prerequisites="01011402">Sistemas Digitales (4 créditos)</div>
+        </div>
+        <!-- 5to Semestre -->
+        <div class="semester">
+            <h2>5to Semestre</h2>
+            <div class="course" data-id="06011430" data-prerequisites="04011418">Análisis Numérico (3 créditos)</div>
+            <div class="course" data-id="05011429" data-prerequisites="04011421">Arquitectura de Computadores (3 créditos)</div>
+            <div class="course" data-id="05011431" data-prerequisites="04011423">General English V (2 créditos)</div>
+            <div class="course" data-id="05011425" data-prerequisites="02011408">Investigación de Operaciones Determinísticas (3 créditos)</div>
+            <div class="course" data-id="07011435" data-prerequisites="04011418">Matemáticas Avanzadas (3 créditos)</div>
+            <div class="course" data-id="05011427" data-prerequisites="02011410">Programación para Web (4 créditos)</div>
+        </div>
+        <!-- 6to Semestre -->
+        <div class="semester">
+            <h2>6to Semestre</h2>
+            <div class="course" data-id="06011433" data-prerequisites="03011415">Compiladores (4 créditos)</div>
+            <div class="course" data-id="07011436" data-prerequisites="01011401">Física Mecánica (4 créditos)</div>
+            <div class="course" data-id="06011432" data-prerequisites="05011427">Ingeniería de Software (4 créditos)</div>
+            <div class="course" data-id="06011450" data-prerequisites="04011419">Ingeniería Económica (3 créditos)</div>
+            <div class="course" data-id="06011434" data-prerequisites="05011427">Proyecto de Diseño y Prototipado (2 créditos)</div>
+        </div>
+        <!-- 7mo Semestre -->
+        <div class="semester">
+            <h2>7mo Semestre</h2>
+            <div class="course" data-id="07011438" data-prerequisites="06011432">Arquitectura de Software (4 créditos)</div>
+            <div class="course" data-id="08011440" data-prerequisites="07011436">Calor y Ondas (4 créditos)</div>
+            <div class="course" data-id="07011437" data-prerequisites="03011414,60_percent">Diseño Organizacional de TI (4 créditos)</div>
+            <div class="course" data-id="09011448" data-prerequisites="70_percent">Legislación Informática (2 créditos)</div>
+            <div class="course" data-id="08011442" data-prerequisites="05011429,06011433">Sistemas Operativos (4 créditos)</div>
+        </div>
+        <!-- 8vo Semestre -->
+        <div class="semester">
+            <h2>8vo Semestre</h2>
+            <div class="course" data-id="08011441" data-prerequisites="08011440">Electricidad y Magnetismo (4 créditos)</div>
+            <div class="course" data-id="09011446" data-prerequisites="70_percent">Ética en Ingeniería de Sistemas (2 créditos)</div>
+            <div class="course" data-id="09011447" data-prerequisites="06011450">Gestión de Proyectos (3 créditos)</div>
+            <div class="course" data-id="06011431" data-prerequisites="04011419,06011430,06011433">Inteligencia Artificial (4 créditos)</div>
+        </div>
+        <!-- 9no Semestre -->
+        <div class="semester">
+            <h2>9no Semestre</h2>
+            <div class="course" data-id="09011444" data-prerequisites="03011414,04011418">Dinámica de Sistemas (4 créditos)</div>
+            <div class="course" data-id="09011462" data-prerequisites="06011434,07011438,06011431">Experiencia Final de Diseño en Ingeniería (4 créditos)</div>
+            <div class="course" data-id="09011445" data-prerequisites="08011442">Redes (4 créditos)</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
